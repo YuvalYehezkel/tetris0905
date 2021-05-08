@@ -1,0 +1,6 @@
+﻿  Bomb.h
+Debug\Bomb.obj : warning LNK4042: object specified more than once; extras ignored
+TheGame.obj : error LNK2019: unresolved external symbol "public: void __thiscall Bomb::initBomb(int,int)" (?initBomb@Bomb@@QAEXHH@Z) referenced in function "public: __thiscall Bomb::Bomb(int)" (??0Bomb@@QAE@H@Z)
+TheGame.obj : error LNK2001: unresolved external symbol "public: virtual bool __thiscall Bomb::update(class Board &,int,int)" (?update@Bomb@@UAE_NAAVBoard@@HH@Z)
+TheGame.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall Bomb::print(class Board &)" (?print@Bomb@@UAEXAAVBoard@@@Z)
+C:\Users\yuval\Desktop\שנה ב\סמסטר ב\cpp\TetrisTargil1\Debug\TetrisTargil1.exe : fatal error LNK1120: 3 unresolved externals
